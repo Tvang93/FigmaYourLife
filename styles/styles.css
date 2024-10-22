@@ -73,13 +73,33 @@ body{
     background-color: #363636;
 }
 
+.intro-text-bg {
+    background-color: rgb(115, 114, 114, 0.2) !important;
+}
+
+.accordion-text-color {
+    color: #CCA43B;
+}
+
+.accordion-text-size {
+    font-size: 1.5rem;
+}
+
+.accorion-bg {
+    background-color: rgb(115, 114, 114, 0.3) !important;
+}
+
+.interest-pic {
+    width: 100%;
+}
+
 .carousel-height-max {
     height: 30rem;
+    opacity: 60%;
 }
 
 .caption-text-size {
     font-size: 2rem;
-    
 }
 
 .caption-text-bg {
