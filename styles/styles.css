@@ -76,3 +76,16 @@ body{
 .carousel-height-max {
     height: 30rem;
 }
+
+.caption-text-size {
+    font-size: 2rem;
+    
+}
+
+.caption-text-bg {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.caption-up {
+    margin-bottom: 8rem;
+}
