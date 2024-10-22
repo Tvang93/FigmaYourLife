@@ -1,0 +1,74 @@
+
+body{
+    background: linear-gradient(
+      to right,
+      #363636 0%,
+      #363636 50%,
+      #242F40 50%,
+      #242F40 100%
+    );
+}
+  
+.text-align-end {
+    text-align: end;
+}
+
+.text-align-start {
+    text-align: start;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.title-margin {
+    margin-top: 2rem;
+}
+
+.heading-margin {
+    margin-top: 5rem;
+}
+
+.title-text {
+    color: #CCA43B;
+    font-size: 5rem;
+}
+
+.heading-text {
+    color: #CCA43B;
+    font-size: 3rem;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.center-display {
+    justify-content: center;
+}
+
+.end-display {
+    justify-content: end;
+}
+
+.start-display {
+    justify-content: start;
+}
+
+#profile-pic {
+    width: 20%;
+    height: 23vh;
+}
+
+#introductions {
+    width: 80%;
+    height: 23vh;
+}
+
+.bg-button-1 {
+    background-color: #242F40;
+}
+
+.bg-button-2 {
+    background-color: #363636;
+}
