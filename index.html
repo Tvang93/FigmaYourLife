@@ -1,98 +1,122 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Figma Your Life</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Figma Your Life</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles/styles.css">
+    </head>
 
-<body>
+    <body>
 
-    <!-- NavBar Start -->
-    
+        <!-- NavBar Start -->
         <ul class="nav nav-tabs justify-content-center navbar-bg">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html"> Home </a>
+                <a class="nav-link active" aria-current="page"
+                    href="./index.html"> Home </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./pages/interestPage.html"> Interests </a>
+                <a class="nav-link" href="./pages/interestPage.html"> Interests
+                </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./pages/accompPage.html""> Accomplishments </a>
+                <a class="nav-link" href="./pages/accompPage.html"">
+                    Accomplishments </a>
             </li>
         </ul>
-    <!-- NavBar End -->
+        <!-- NavBar End -->
 
-    <!-- Title Sections Start-->
-    <div class=" container title-margin">
-                    <div class="row">
-                        <div class="col-6 text-align-end title-text"> Welcome </div>
-                        <div class="col-6"> </div>
+        <!-- Title Sections Start-->
+        <div class=" container title-margin">
+            <div class="row">
+                <div class="col-6 text-align-end title-text"> Welcome </div>
+                <div class="col-6"> </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6"> </div>
+                <div class="col-6 text-align-start title-text"> To </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-align-end title-text"> My </div>
+                <div class="col-6"> </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6"> </div>
+                <div class="col-6 text-align-start title-text"> Life </div>
+            </div>
+        </div>
+        <!-- Title Sections End-->
+
+        <!-- Name Collapse Start -->
+        <div class="display-flex center-display">
+            <p class="d-inline-flex gap-1 ">
+                <a class="btn bg-button-1 text-white hover-1"
+                    data-bs-toggle="collapse" href="#profilePic"
+                    role="button" aria-expanded="false"
+                    aria-controls="profilePic"> Thao </a>
+                <button class="btn bg-button-2 text-white hover-2" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#introductions" aria-expanded="false"
+                    aria-controls="introductions"> Vang
+                </button>
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="profilePic">
+                        <div class="display-flex end-display">
+                            <img src="./assets/Thao Pic.jpg"
+                                alt="picture of person named Thao"
+                                id="profile-pic">
+                        </div>
                     </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-6"> </div>
-            <div class="col-6 text-align-start title-text"> To </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-6 text-align-end title-text"> My </div>
-            <div class="col-6"> </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-6"> </div>
-            <div class="col-6 text-align-start title-text"> Life </div>
-        </div>
-    </div>
-    <!-- Title Sections End-->
-
-    <!-- Name Collapse Start -->
-    <div class="display-flex center-display">
-        <p class="d-inline-flex gap-1 ">
-            <a class="btn bg-button-1 text-white hover-1" data-bs-toggle="collapse" href="#profilePic" role="button" aria-expanded="false"
-                aria-controls="profilePic"> Thao </a>
-            <button class="btn bg-button-2 text-white hover-2" type="button" data-bs-toggle="collapse" data-bs-target="#introductions"
-                aria-expanded="false" aria-controls="introductions"> Vang </button>
-        </p>
-    </div>
-    <div class="container">
-    <div class="row">
-        <div class="col">
-            <div class="collapse multi-collapse" id="profilePic">
-                <div class="display-flex end-display">
-                    <img src="./assets/Thao Pic.jpg" alt="picture of person named Thao" id="profile-pic">
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="introductions">
+                        <div
+                            class="card card-body intro-text-bg accordion-text-color">
+                            <h3>About Me:</h3>
+                            Hello, my name is Thao Vang. I am currently enrolled
+                            in CodeStack Academy and learning to code. I
+                            was a former highschool physics teacher, but decided
+                            that this was a perfect opportunity to try out
+                            one of my dreams, which is to learn to code and
+                            develop a game. I would love to be able to use what
+                            I learn in the Academy to earn a job and start my
+                            career in software.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="collapse multi-collapse" id="introductions">
-                <div class="card card-body intro-text-bg accordion-text-color">
-                    <h3>About Me:</h3>
-                    Hello, my name is Thao Vang. I am currently enrolled in CodeStack Academy and learning to code. I
-                    was a former highschool physics teacher, but decided that this was a perfect opportunity to try out
-                    one of my dreams, which is to learn to code and develop a game. I would love to be able to use what
-                    I learn in the Academy to earn a job and start my career in software.
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!-- Name Collapse End -->
+        <!-- Name Collapse End -->
 
-    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</body>
+        <!-- Footer Start-->
+        <div class="footer">
+            <p>&copy Thao Vang</p>
+        </div>
+        <!-- Footer End -->
+
+        <script
+            src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>
