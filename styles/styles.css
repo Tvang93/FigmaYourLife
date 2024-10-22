@@ -72,3 +72,7 @@ body{
 .bg-button-2 {
     background-color: #363636;
 }
+
+.carousel-height-max {
+    height: 30rem;
+}
