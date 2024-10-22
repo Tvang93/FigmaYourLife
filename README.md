@@ -19,4 +19,7 @@ Brief Description:
         Figma has to be approved before you can start with your coding 
         Late Assignments will automatically get a Zero Regardless of the Price of Tea in China.
 
-Peer Reviewed:
+Peer Reviewed by: Juan Heredia
+
+"Pretty good looking website, everything works fine, and is easy on the eyes. My only problem was that the way the home page is structured made me think that my resolution messed with the website. Nice interests btw"
+
