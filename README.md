@@ -1,7 +1,11 @@
 Thao Vang
+
 10/22/24
+
 Assignment: Figma Your Life
+
 Brief Description:
+        
         Make a Figma about your life. 
         You will create a prototype of a website about your life and be functional 
         If you are not comfortable with putting out personal information create one about an influential person)
@@ -14,3 +18,5 @@ Brief Description:
             - Figma and GH Repo links in comments
         Figma has to be approved before you can start with your coding 
         Late Assignments will automatically get a Zero Regardless of the Price of Tea in China.
+
+Peer Reviewed:
